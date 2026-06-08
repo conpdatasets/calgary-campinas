@@ -49,12 +49,14 @@
   "types": [
     {
       "information": {
-        "value": "NIfTI"
+        "value": "Nifti",
+		    "valueIRI": "http://uri.interlex.org/ilx_0778596"
       }
     },
     {
       "information": {
-        "value": "HDF5"
+        "value": "HDF5",
+		    "valueIRI": "http://uri.interlex.org/ilx_0778945"
       }
     }
   ],
@@ -288,8 +290,16 @@
         {
           "value": "Canada"
         }
+      ] 
+	},	
+	{
+      "category": "logo",
+      "values": [
+        {
+          "value": "logo.jpg"
+        }
       ]
-    },
+    },  
     {
       "category": "contact",
       "values": [
